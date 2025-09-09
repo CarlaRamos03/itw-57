@@ -76,7 +76,7 @@ section.profesionales {
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   
-  min-height: 200px;
+  min-height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +105,7 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
 
 
 
