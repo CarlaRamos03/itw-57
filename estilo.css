@@ -208,7 +208,6 @@ body.contacto main form button:hover {
 }
 .bloque-extra {
   margin-top: 40px;
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -221,5 +220,6 @@ body.contacto main form button:hover {
   font-size: 1em;
   line-height: 1.6;
   box-sizing: border-box;
+  display: inline-block; 
 }
 
