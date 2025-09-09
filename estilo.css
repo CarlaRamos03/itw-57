@@ -159,32 +159,40 @@ body.contacto main form button:hover {
 }
 /* Estilos sobrenosotros*/
 .sobre-nosotros {
-  max-width: 940px;
-  margin: 0 auto;
+  width: 100%;
   background: #fff;
-  padding: 40px 5vw; 
+  padding: 40px 5vw;
   box-sizing: border-box;
   border-radius: 0;
   box-shadow: none;
 }
 
+.sobre-nosotros h2 {
+  text-align: center;
+  color: #1a3f5c;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .cards-nosotros {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
   gap: 20px;
   margin-top: 30px;
   padding: 0 10px;
+  justify-content: center; 
+  justify-items: center;  
 }
 
 .card-nosotros {
-  flex: 0 1 280px;
   background-color: #f0f4f7;
   border: 1px solid #1a3f5c;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 280px; 
 }
 
 .card-nosotros:hover {
