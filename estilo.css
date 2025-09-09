@@ -15,8 +15,9 @@ body {
 
 main {
   flex: 1;
-  margin: 40px auto;
-  padding: 0 15px;
+  padding: 40px 15px;
+  display: flex;
+  justify-content: center;
 }
 
 header {
@@ -52,8 +53,8 @@ nav ul li a:hover {
 }
 
 section.profesionales {
+  width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
   background: #fff;
   padding: 20px;
   margin-bottom: 20px;
@@ -100,5 +101,6 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
 
 
