@@ -110,13 +110,50 @@ footer {
   padding: 10px 0;
 }
 
+/* Estilos contacto */
+body.contacto main {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
 
+body.contacto main h2 {
+  text-align: center;
+  color: #1a3f5c;
+  margin-bottom: 20px;
+}
 
+body.contacto main form label {
+  margin: 10px 0 5px;
+}
 
+body.contacto main form input,
+body.contacto main form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  width: 100%;
+  box-sizing: border-box;
+}
 
+body.contacto main form button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background-color: #1a3f5c;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
 
-
-
-
-
-
+body.contacto main form button:hover {
+  background-color: #16314a;
+}
