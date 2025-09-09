@@ -159,20 +159,13 @@ body.contacto main form button:hover {
 }
 /* Estilos sobrenosotros*/
 .sobre-nosotros {
-  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
   background: #fff;
   padding: 40px 5vw; 
   box-sizing: border-box;
   border-radius: 0;
   box-shadow: none;
-}
-
-.sobre-nosotros h2 {
-  text-align: center;
-  color: #1a3f5c;
-  margin-bottom: 25px;
-  font-size: 2rem;
-  font-weight: 600;
 }
 
 .cards-nosotros {
@@ -205,4 +198,5 @@ body.contacto main form button:hover {
   font-size: 1em;
   line-height: 1.5;
 }
+
 
