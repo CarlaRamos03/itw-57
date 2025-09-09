@@ -207,20 +207,18 @@ body.contacto main form button:hover {
   line-height: 1.5;
 }
 .bloque-extra {
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 20px; 
-  background-color: #f0f4f7;
-  border: 1px solid #1a3f5c;
+  margin: 40px auto 0;
+  padding: 10px 15px;
+  max-width: 500px;
+  background-color: #f9fafb;
+  border: 1px solid #a0b3c6;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  color: #607d8b;
+  font-family: Arial, sans-serif;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.4;
   text-align: center;
-  color: #1a3f5c;
-  font-family: 'Georgia', serif;
-  font-size: 1em;
-  line-height: 1.5;
-  max-width: 600px;
+  display: inline-block;
   box-sizing: border-box;
-  display: inline-block; 
 }
