@@ -62,25 +62,19 @@ section.profesionales {
 }
 
 .lista-profesionales {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    width: 100%;
 }
 
 .profesional {
-  background: #f0f4f7;
-  border: 1px solid #1a3f5c;
-  border-radius: 8px;
-  padding: 18px 22px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-}
+    background: #f0f4f7;
+    border: 1px solid #1a3f5c;
+    border-radius: 8px;
+    padding: 18px 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 .profesional:hover {
   transform: translateY(-4px);
@@ -105,6 +99,7 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
 
 
 
