@@ -1,83 +1,77 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: #f4f4f4;
     margin: 0;
     color: #333;
+    text-align: center;
 }
 
 header {
-    background: #2f444f;
+    background: #1a3f5c;
     color: #fff;
-    padding: 20px 0 10px 0;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.65);
+    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 header h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
     font-size: 2em;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 5px 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul a {
+nav ul li a {
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    transition: text-decoration 0.2s, color 0.2s;
+    transition: color 0.2s;
 }
 
-nav ul a:hover {
-    text-decoration: underline;
-    color: rgb(84, 5, 123);
+nav ul li a:hover {
+    color: #75a9c5;
 }
 
 main {
     max-width: 900px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto;
     padding: 0 15px;
 }
 
-.profesionales {
-    background: none;
-    padding: 0;
-    margin-bottom: 0;
-    box-shadow: none;
-    border-radius: 0;
+section.profesionales {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-.profesionales h2 {
+section.profesionales h2 {
     margin-top: 0;
-    color: #5e00b5;
-    font-size: 1.6em;
-    margin-bottom: 25px;
-    text-align: center;
+    color: #1a3f5c;
+    font-size: 1.5em;
+    margin-bottom: 18px;
 }
 
 .profesionales {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
+    padding: 20px 0;
 }
 
 .profesional {
-    background: #fff;
-    border: 1px solid #6835ba;
+    background: #f0f4f7;
+    border: 1px solid #1a3f5c;
     border-radius: 8px;
     padding: 18px 22px;
-    box-sizing: border-box;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -88,9 +82,8 @@ main {
 
 .profesional h3 {
     margin-top: 0;
-    color: #5e00b5;
+    color: #1a3f5c;
     font-size: 1.2em;
-    margin-bottom: 10px;
 }
 
 .profesional p {
@@ -99,9 +92,9 @@ main {
 }
 
 footer {
-    background: #2f444f;
+    background: #1a3f5c;
     color: #fff;
-    text-align: center;
     padding: 15px 0;
     margin-top: 40px;
 }
+
