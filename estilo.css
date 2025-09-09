@@ -162,12 +162,19 @@ body.contacto main form button:hover {
 /* Estilos sobrenosotros*/
 .sobre-nosotros {
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
   background: #fff;
-  padding: 40px 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 40px 5vw; 
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.sobre-nosotros h2 {
+  text-align: center;
+  color: #1a3f5c;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .cards-nosotros {
@@ -175,7 +182,7 @@ body.contacto main form button:hover {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   margin-top: 30px;
-}
+  padding: 0 10px;
 
 .card-nosotros {
   background-color: #f0f4f7;
