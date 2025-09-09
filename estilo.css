@@ -154,8 +154,6 @@ body.contacto main form button {
   transition: background-color 0.2s;
 }
 
-
-
 body.contacto main form button:hover {
   background-color: #16314a;
 }
@@ -179,12 +177,12 @@ body.contacto main form button:hover {
 
 .cards-nosotros {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, 280px);
   gap: 20px;
   margin-top: 30px;
   padding: 0 10px;
   justify-content: center;
-  }
+}
 
 .card-nosotros {
   background-color: #f0f4f7;
@@ -206,4 +204,3 @@ body.contacto main form button:hover {
   font-size: 1em;
   line-height: 1.5;
 }
-
