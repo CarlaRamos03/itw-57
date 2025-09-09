@@ -84,6 +84,7 @@ section.profesionales h2 {
     margin-top: 0;
     color: #1a3f5c;
     font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 .profesional p {
@@ -94,7 +95,10 @@ section.profesionales h2 {
 footer {
     background: #1a3f5c;
     color: #fff;
+    text-align: center;
     padding: 15px 0;
     margin-top: 40px;
 }
+
+
 
