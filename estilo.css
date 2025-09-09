@@ -5,11 +5,9 @@ html, body {
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f4f4f4;
   color: #333;
@@ -19,7 +17,10 @@ body {
 main {
   flex: 1;
   padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -106,8 +107,9 @@ footer {
   background: #1a3f5c;
   color: #fff;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
 }
+
 
 
 
