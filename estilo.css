@@ -39,22 +39,13 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 900px;
     margin: 40px auto;
     padding: 0 15px;
 }
 
 section.profesionales {
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 8px;
-}
-
-section.profesionales {
-    max-width: 1000px;
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
     background: #fff;
     padding: 20px;
     margin-bottom: 20px;
@@ -102,6 +93,7 @@ footer {
     padding: 15px 0;
     margin-top: 40px;
 }
+
 
 
 
