@@ -176,15 +176,16 @@ body.contacto main form button:hover {
 }
 
 .cards-nosotros {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 280px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin-top: 30px;
   padding: 0 10px;
-  justify-content: center;
 }
 
 .card-nosotros {
+  flex: 0 1 280px;
   background-color: #f0f4f7;
   border: 1px solid #1a3f5c;
   border-radius: 8px;
@@ -204,3 +205,4 @@ body.contacto main form button:hover {
   font-size: 1em;
   line-height: 1.5;
 }
+
